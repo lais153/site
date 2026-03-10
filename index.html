@@ -47,6 +47,7 @@
           </aside>
 
     </section>
+
     <section id="Projeto">
 
         <h2>Projetos</h2>
@@ -62,9 +63,44 @@
         </article>
 
     </section>
+
+    <section id="habilidades">
+
+          <h2>Habilidades e Tecnologias</h2>
+
+          <table>
+
+            <thead>
+               <tr>
+
+                <th>Tecnologia</th>
+                <th>Nível</th>
+                <th>Descrição</th>
+              
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas de páginas web semânticas e responsivas.</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolmento de scripts do lado do cliente para interações</td>
+                </tr>
+            </tbody>
+
+          </table>
+
+    </section>
+
+
      
     <footer> <!-- Rodapé do site. -->
-        <p>Direitos reservado a João</p>
+        <p>Direitos reservado a Leticia Lais</p>
 
         <section id="Contatos">
             <h2>Contato</h2>
@@ -74,28 +110,31 @@
             <form action="">
 
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome"> <br><br>
+                <input type="text" id="nome" name="nome" required><br><br>
 
                 <label for="email">Email:</label>
-                <input type="text" id="email" name="email"><br><br>
+                <input type="text" id="email" name="email" required><br><br>
 
                 <label for="telefone">Telefone:</label>
-                <input type="text" id="telefone" name="telefone"><br><br>
-
-                <label for="telefone">Telefone:</label>
-                <input type="text" id="telefone" name="telefone"><br><br>
+                <input type="text" id="telefone" name="telefone" required><br><br>
 
                 <label for="assunto">Assunto:</label>
                 <select name="assunto" id="assunto">
                     <option value="orcamento">Orçamento</option>
                     <option value="duvida">Dúvida</option>
                     <option value="outro">Outro</option>
-                </select>
+                </select><br><br>
 
                 <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="2" required></textarea><br>
                 
+                <input type="checkbox" id="incricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter ? fique por dentro!</label><br>
 
+               <input type="submit" value="Enviar mensagem">
 
+               <input type="date">
+            
             </form>
 
             <address>
